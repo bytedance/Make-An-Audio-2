@@ -1,0 +1,27 @@
+--extra-index-url https://download.pytorch.org/whl/cu113
+# conda install pytorch==1.13.0 torchvision==0.14.0 torchaudio==0.13.0 pytorch-cuda=11.6 -c pytorch -c nvidia
+pytorch==1.13.0
+torchaudio>=0.13.0
+torchvision>=0.14.0
+torch-fidelity==0.3.0
+scipy==1.7.3 # audioldm_eval中fid.py中的covmean, _ = scipy.linalg.sqrtm(sigma1.dot(sigma2), disp=False)在不同版本会算出不同结果
+importlib_resources
+tensorboard
+tqdm
+omegaconf
+einops
+numpy<=1.23.5
+soundfile
+librosa
+scikit-image==0.19.3
+pandas
+torchlibrosa
+transformers==4.26.0
+safetensors
+ftfy
+pytorch-lightning==1.7.0
+torchmetrics==0.11.1
+# below are used for evaluation
+resampy
+ssr_eval
+-e git+https://github.com/awei-6/BigVGAN.git@main#egg=BigVGAN

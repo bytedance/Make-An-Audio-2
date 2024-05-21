@@ -1,0 +1,11 @@
+__pycache__
+*.pyc
+# logs
+src
+processed
+useful_ckpts/bigvgan
+useful_ckpts/maa2.ckpt
+useful_ckpts/CLAP/CLAP_weights_2022.pth
+genwavs
+gen_wav
+test.ipynb

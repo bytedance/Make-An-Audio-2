@@ -1,0 +1,6 @@
+name	dataset	caption	audio_path	duration	mel_path
+1210764.wav	audiostock	Ping pong! Quiz Correct Answer Successful Button	/home/tiger/nfs/data/old_data/Audiostock/audios/1210764.wav	1.5	processed/melnone16000/home/tiger/nfs/data/old_data/Audiostock/audios/1210764_mel.npy
+1108217.wav	audiostock	Sharp shamisen chichin part 2	/home/tiger/nfs/data/old_data/Audiostock/audios/1108217.wav	2.75	processed/melnone16000/home/tiger/nfs/data/old_data/Audiostock/audios/1108217_mel.npy
+1238575.wav	audiostock	The sound of locking the inside of the door of an apartment E	/home/tiger/nfs/data/old_data/Audiostock/audios/1238575.wav	1.495	processed/melnone16000/home/tiger/nfs/data/old_data/Audiostock/audios/1238575_mel.npy
+1153833.wav	audiostock	Electric sound like laser.	/home/tiger/nfs/data/old_data/Audiostock/audios/1153833.wav	1.851	processed/melnone16000/home/tiger/nfs/data/old_data/Audiostock/audios/1153833_mel.npy
+811188.wav	audiostock	Flashy and glittering blues jingle	/home/tiger/nfs/data/old_data/Audiostock/audios/811188.wav	4.7143125	processed/melnone16000/home/tiger/nfs/data/old_data/Audiostock/audios/811188_mel.npy
