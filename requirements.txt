@@ -4,7 +4,7 @@ pytorch==1.13.0
 torchaudio>=0.13.0
 torchvision>=0.14.0
 torch-fidelity==0.3.0
-scipy==1.7.3 # audioldm_eval中fid.py中的covmean, _ = scipy.linalg.sqrtm(sigma1.dot(sigma2), disp=False)在不同版本会算出不同结果
+scipy==1.7.3 # The covmean, _ = scipy.linalg.sqrtm(sigma1.dot(sigma2), disp=False) in fid.py in audioldm_eval will compute different results in different versions
 importlib_resources
 tensorboard
 tqdm
@@ -24,4 +24,4 @@ torchmetrics==0.11.1
 # below are used for evaluation
 resampy
 ssr_eval
--e git+https://github.com/awei-6/BigVGAN.git@main#egg=BigVGAN
+-e git+https://github.com/awei-6/BigVGAN.git@main#egg=BigVGAN # Modify the file import structure and add the VocoderBigVGAN class for ease of invocation
