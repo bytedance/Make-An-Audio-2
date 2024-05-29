@@ -94,7 +94,7 @@ Assume we have processed several datasets, and save the .tsv files in tsv_dir/*.
 python main.py --base configs/research/autoencoder/autoencoder1d_kl20_natbig_r1_down2_disc2.yaml -t --gpus 0,1,2,3,4,5,6,7
 ```
 
-## train latent diffsuion
+## train latent diffusion
 After trainning VAE, replace model.params.first_stage_config.params.ckpt_path with your trained VAE checkpoint path in the config file.
 Run the following command to train Diffusion model
 ```
